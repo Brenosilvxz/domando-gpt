@@ -1,7 +1,8 @@
+import './Cards.css'
 const Cards = () => {
   return (
     <>
-      <section>
+      <section className='cards-section'>
         <article>
           <h1>🍕 Pizzas Artesanais</h1>
           <p>
