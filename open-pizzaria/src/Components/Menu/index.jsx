@@ -20,7 +20,7 @@ const Menu = () => {
             </li>
 
             <li>
-              <a href="#">Mussarels</a>
+              <a href="#">Mussarela</a>
             </li>
 
             <li>

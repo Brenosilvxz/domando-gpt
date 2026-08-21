@@ -1,8 +1,8 @@
-import Header from "./Components/Header.jsx";
-import Banner from "./Components/Banner.jsx";
-import Cards from "./Components/Cards.jsx";
-import Footer from "./Components/Footer.jsx";
-import Menu from "./Components/Menu.jsx";
+import Header from "./Components/Header";
+import Menu from "./Components/Menu";
+import Banner from "./Components/Banner";
+import Cards from "./Components/Cards";
+import Footer from "./Components/Footer";
 
 import "./Global.css";
 function App() {
