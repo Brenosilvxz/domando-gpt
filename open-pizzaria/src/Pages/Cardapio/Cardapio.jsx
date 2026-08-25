@@ -81,7 +81,7 @@ export default function Cardapio() {
             </div>
 
             <div className="pizza-content">
-              <h3>Margherita</h3>
+              <h3>Manjericão</h3>
 
               <p>
                 Molho de tomate, muçarela, tomate e manjericão
