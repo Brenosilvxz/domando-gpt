@@ -14,7 +14,7 @@ const Menu = () => {
         </li>
 
         <li className="submenu">
-          <a href="#">Cardápio ▾</a>
+         <Link to="/cardapio">Cardápio</Link>
           <ul>
             <li>
               <a href="#">Calabresa</a>

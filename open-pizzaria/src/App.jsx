@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import "./Global.css";
 import Router from "./Router";
 
+
 function App() {
   return (
     <div className="container">
@@ -13,7 +14,6 @@ function App() {
         textHeader=" As melhores pizzas, preparadas com carinho para deixar seu momento ainda
         mais saboroso."
       />
-
       <Router />
       <Footer />
     </div>
