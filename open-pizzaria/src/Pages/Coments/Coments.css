@@ -1,0 +1,219 @@
+/* ================================
+   COMMENTS
+================================ */
+
+.containerComments {
+  padding: 70px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Inter", Arial, sans-serif;
+  color: #fff;
+
+  background:
+    radial-gradient(
+      circle at 10% 10%,
+      rgba(232, 73, 46, 0.20),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 90% 90%,
+      rgba(255, 154, 92, 0.12),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #120807,
+      #1c0b08,
+      #100605
+    );
+}
+
+
+/* ================================
+   TÍTULO
+================================ */
+
+.containerComments h1 {
+  margin: 0 0 45px;
+
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 800;
+
+  letter-spacing: -1.5px;
+  text-align: center;
+
+  background: linear-gradient(
+    90deg,
+    #ff643d,
+    #ff9860,
+    #ffc078
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ================================
+   LISTA DE COMENTÁRIOS
+================================ */
+
+.contentCommentes {
+  width: 100%;
+  max-width: 800px;
+
+  display: grid;
+  gap: 18px;
+}
+
+
+/* ================================
+   CARD
+================================ */
+
+.contentCommentes article {
+  position: relative;
+
+  padding: 25px 28px;
+
+  border-radius: 18px;
+
+  border: 1px solid rgba(255, 105, 70, 0.15);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.075),
+      rgba(255, 255, 255, 0.025)
+    );
+
+  backdrop-filter: blur(16px);
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* Barra colorida no topo */
+
+.contentCommentes article::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 3px;
+
+  background: linear-gradient(
+    90deg,
+    #d83f29,
+    #f26a3d,
+    #ffb06b
+  );
+}
+
+
+/* Brilho */
+
+.contentCommentes article::after {
+  content: "";
+
+  position: absolute;
+
+  width: 150px;
+  height: 150px;
+
+  right: -70px;
+  top: -80px;
+
+  border-radius: 50%;
+
+  background: #ed5938;
+
+  opacity: 0.08;
+
+  filter: blur(40px);
+
+  pointer-events: none;
+}
+
+
+/* ================================
+   HOVER
+================================ */
+
+.contentCommentes article:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(255, 105, 70, 0.35);
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.4),
+    0 8px 30px rgba(230, 70, 40, 0.12);
+}
+
+
+/* ================================
+   TEXTO
+================================ */
+
+.contentCommentes article strong {
+  position: relative;
+  z-index: 1;
+
+  display: block;
+
+  color: #f3e5df;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  line-height: 1.7;
+}
+
+
+/* Destaque do comentário */
+
+.contentCommentes article strong::first-letter {
+  color: #ff754c;
+}
+
+
+/* ================================
+   RESPONSIVO
+================================ */
+
+@media (max-width: 600px) {
+  .containerComments {
+    padding: 45px 16px;
+  }
+
+  .containerComments h1 {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+
+  .contentCommentes article {
+    padding: 22px;
+    border-radius: 15px;
+  }
+
+  .contentCommentes article strong {
+    font-size: 15px;
+  }
+}

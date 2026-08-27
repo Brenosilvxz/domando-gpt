@@ -45,7 +45,7 @@ const Menu = () => {
             </li>
 
             <li>
-              <a href="#">Instagram</a>
+            <Link to="/coments">Comentários</Link>
             </li>
 
             <li>
