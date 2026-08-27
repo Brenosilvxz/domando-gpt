@@ -12,6 +12,9 @@ const Menu = () => {
         <li>
           <Link to="/sobre">Sobre</Link>
         </li>
+        <li>
+          <Link to="/users">Usuários</Link>
+        </li>
 
         <li className="submenu">
          <Link to="/cardapio">Cardápio</Link>
@@ -34,7 +37,7 @@ const Menu = () => {
         </li>
 
         <li className="submenu">
-          <a href="#">Fale Conosco ▾</a>
+          <a href="#">Mais ▾</a>
 
           <ul>
             <li>
