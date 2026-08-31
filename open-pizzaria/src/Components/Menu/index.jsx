@@ -15,6 +15,9 @@ const Menu = () => {
         <li>
           <Link to="/users">Usuários</Link>
         </li>
+        <li>
+          <Link to="/cadastro">Cadastro</Link>
+        </li>
 
         <li className="submenu">
          <Link to="/cardapio">Cardápio</Link>

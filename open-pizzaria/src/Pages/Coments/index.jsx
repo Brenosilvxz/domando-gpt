@@ -16,12 +16,12 @@ useEffect(() => {
 
   return (
    <main className="containerComments">
-      <h1>Lista de usuários</h1>
+      <h1>Lista de comentários</h1>
       
       <section className="contentCommentes">
         {comments.map((coments) => (
         <article >
-            <h2>Nome: {coments.nome}</h2>
+            <h2>{coments.nome}</h2>
           <strong>Coméntario: {coments.text}</strong>
           {/* <strong>Telefone: {coments.telefone}</strong>
           <strong>Email: {coments.email}</strong> */}
