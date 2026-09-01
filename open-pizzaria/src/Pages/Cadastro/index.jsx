@@ -8,10 +8,25 @@ export default function Cadastro() {
     telefone: "",
   });
 
+  // Função para atualizaro estado ao digitar no form 
+  const handleChange = (event) => {
+    const { name, value} = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }))
+  }
+
+// Função para enviar o formulário
+const handleSubmit = (e) => {
+  e.preventDefault()
+  console.log("Enviar.....")
+}
+
   return (
     <main className="containerCadastro">
       <h1>Cadastro de usuários</h1>
-      <form>
+      <form onSubmit={handleSubmit}>
         <article className="form-control">
           <label htmlFor="nome">Nome</label>
           <input 
@@ -19,6 +34,7 @@ export default function Cadastro() {
             name="nome"
             placeholder="Digite seu nome"
             value={formData.nome}
+            onChange={handleChange}
             />
         </article>
 
@@ -29,6 +45,7 @@ export default function Cadastro() {
             name="email"
             placeholder="Digite seu email" 
             value={formData.email}
+            onChange={handleChange}
             />
         </article>
 
@@ -39,6 +56,7 @@ export default function Cadastro() {
             name="telefone" 
             placeholder="Digite seu telefone"
             value={formData.telefone}
+            onChange={handleChange}
             />
         </article>
         <br />
