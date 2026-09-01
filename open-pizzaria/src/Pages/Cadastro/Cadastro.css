@@ -339,6 +339,19 @@
   transform: rotate(12deg);
 }
 
+.form-control p {
+  color: #e63946;
+  font-size: 14px;
+  margin: 5px 0 0;
+  font-weight: 500;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #e63946;
+}
+
+
 
 /* =========================
    RESPONSIVO
