@@ -28,94 +28,10 @@
   },
   "users": [
     {
-      "nome": "Dona",
-      "email": "joao@email.com",
-      "telefone": "11999990001",
-      "id": "z9t0F49Q5Ts"
-    },
-    {
-      "nome": "Breno",
-      "email": "maria@email.com",
-      "telefone": "11999990002",
-      "id": "ipuxl6J93Ys"
-    },
-    {
-      "nome": "Pacho",
-      "email": "pedro@email.com",
-      "telefone": "11999990003",
-      "id": "EPWJ_tRytJM"
-    },
-    {
-      "nome": "Démbele",
-      "email": "ana@email.com",
-      "telefone": "11999990004",
-      "id": "BwhFUlVEIGc"
-    },
-    {
-      "nome": "Zinedine Zidane",
-      "email": "carlos@email.com",
-      "telefone": "11999990005",
-      "id": "6i0MyerJ9vg"
-    },
-    {
-      "nome": "Andrés Iniesta",
-      "email": "juliana@email.com",
-      "telefone": "11999990006",
-      "id": "9oqFQ8unVs8"
-    },
-    {
-      "nome": "Ronaldinho Gaúcho",
-      "email": "lucas@email.com",
-      "telefone": "11999990007",
-      "id": "kSXXH13AlXE"
-    },
-    {
-      "nome": "Cristiano Ronaldo",
-      "email": "fernanda@email.com",
-      "telefone": "11999990008",
-      "id": "YnSSRSFCTKY"
-    },
-    {
-      "nome": "De Arrascaeta",
-      "email": "rafael@email.com",
-      "telefone": "11999990009",
-      "id": "W0XCUSPiDME"
-    },
-    {
-      "nome": "Lionel Messi",
-      "email": "camila@email.com",
-      "telefone": "11999990010",
-      "id": "iCNusbhSPXo"
-    },
-    {
-      "nome": "Neymar JR",
-      "email": "Neymar@email.com",
-      "telefone": "11999190010",
-      "id": "u0sbkX89yd4"
-    },
-    {
-      "nome": "igor",
-      "email": "igor@hotmail.com",
-      "telefone": "117774536",
-      "id": "COlKTqXWVWw"
-    },
-    {
-      "nome": "Vini JR",
-      "email": "virginio@hotmail.com",
-      "telefone": "11378382943",
-      "id": "-PjVngiGngs"
-    },
-    {
-      "nome": "Paquetá",
-      "email": "paqueta@hotmail.com",
-      "telefone": "11378244",
-      "id": "TjERzo83Acs"
-    },
-    {
       "nome": "Lamine Yamal",
       "email": "yamal@hotmal.com",
-      "telefone": "11362367872",
-      "id": "njLFpzWhcFs"
+      "telefone": "11378382943",
+      "id": "3ZzfBDkjV8M"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
